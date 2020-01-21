@@ -39,6 +39,8 @@ npm install &
 
 npm start
 
+http://locahost:4200
+
 
 # Test Account
 **username:** test
