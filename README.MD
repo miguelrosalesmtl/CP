@@ -34,7 +34,7 @@ sudo docker-compose exec app python3 manage.py loaddata shopping_cart/fixtures/s
 sudo docker logs --tail 50 --follow --timestamps backend_app_1
 
 ### Frontend
-npm install
+npm install &
 npm start
 
 
