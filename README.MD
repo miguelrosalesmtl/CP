@@ -11,6 +11,7 @@ by Miguel Rosales
 **frontend:**
 Angular 8+
 https://github.com/ngx-rocket/starter-kit
+
 **backend:**
 Python 3.7, Django 2.2.9
 
@@ -35,6 +36,7 @@ sudo docker logs --tail 50 --follow --timestamps backend_app_1
 
 ### Frontend
 npm install &
+
 npm start
 
 
