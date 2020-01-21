@@ -1,0 +1,3 @@
+**/node_modules/
+/backend/mysql/
+**/__pycache__/

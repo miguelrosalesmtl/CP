@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="row-center">
+    <div class="text-center">
+      <h1>
+        <span translate>Orders</span>
+      </h1>
+    </div>
+  </div>  
+</div>
+<div class="container">
+  <div class="row">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Order ID</th>
+        <th scope="col">Date</th>
+        <th scope="col">Status</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let order of orders; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>
+          {{ order.id }}
+        </td>
+        <td>
+          {{ order.created | date: 'medium' }}
+        </td>
+        <td>
+          {{ getStatus(order.status) }}
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>  
+</div>
