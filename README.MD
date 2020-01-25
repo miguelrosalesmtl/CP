@@ -28,6 +28,7 @@ sudo docker-compose up -d
 sudo docker-compose exec app python3 manage.py migrate
 
 **Load fixtures**
+
 sudo docker-compose exec app python3 manage.py loaddata shopping_cart/fixtures/auth.json
 sudo docker-compose exec app python3 manage.py loaddata shopping_cart/fixtures/shopping_cart.json
 
