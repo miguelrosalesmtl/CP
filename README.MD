@@ -14,6 +14,7 @@ Angular 8+
 https://github.com/ngx-rocket/starter-kit
 
 **backend:**
+
 Python 3.7, Django 2.2.9
 
 # Installation
